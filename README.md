@@ -24,9 +24,9 @@ This project explores a modular cycling computer capable of integrating GNSS, BL
 
 ## Current Status
 
-- [✔] Development environment established
+- [v] Development environment established
 
-- [✔] nRF52840 evaluation
+- [v] nRF52840 evaluation
 
 - [ ] System architecture
 
@@ -36,31 +36,5 @@ This project explores a modular cycling computer capable of integrating GNSS, BL
 
 
 
-## Roadmap
 
-###Phase 1
-
-- GNSS
-
-- Display
-
-###Phase 2
-
-- BLE
-
-- ANT+
-
-###Phase 3
-
-- Pitot tube
-
-- Airspeed
-
-###Phase 4
-
-- CdA estimation
-
-###Phase 5
-
-- Front light integration
 
