@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Build output
+build/
+Debug/
+Release/
+
+# Nordic / Zephyr build
+zephyr/
+boards/build/
+
+# Object files
+*.o
+*.obj
+*.elf
+*.hex
+*.bin
+*.map
+
+# Logs
+*.log
