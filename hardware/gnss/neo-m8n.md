@@ -2,33 +2,69 @@
 
 ## Purpose
 
-Primary GNSS receiver.
+Provides GNSS positioning, speed, altitude, heading, and UTC time for the cycling computer.
 
-## Interface
+---
+
+## Why Selected?
+
+Selected because it provides:
+
+- Mature and reliable GNSS solution
+- Low power consumption
+- UART interface
+- Stable NMEA output
+- Widely adopted in embedded applications
+
+---
+
+## Interfaces
 
 UART
 
-Default baud rate
-
-9600
-
-Target baud rate
-
-115200
-
-## Output
+Output Protocol
 
 - NMEA
+
+Common Sentences
+
 - GGA
+- GLL
+- GSA
+- GSV
 - RMC
 - VTG
 
-## Current Status
+---
 
-- UART verification completed
-- Parser under development
+## Responsibilities
+
+- Position
+- Speed
+- Altitude
+- UTC Time
+- Navigation source
+
+---
+
+## Current Development
+
+- [v] Module selected
+- [ ] UART driver
+- [ ] NMEA parser
+- [ ] Navigation module
+
+---
+
+## Future Work
+
+- UBX protocol optimization
+- Faster update rate
+- GNSS filtering
+
+---
 
 ## References
 
-- Datasheet
-- Integration Manual
+- NEO-M8N Datasheet
+- Receiver Description
