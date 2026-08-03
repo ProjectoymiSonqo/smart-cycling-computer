@@ -19,6 +19,8 @@ The system is designed to remain modular so that sensing, display, and expansion
 ## High-Level Architecture
 
 
+```text
+
                          +----------------------+
                          |      Mobile App      |
                          |   Configuration /    |
@@ -56,10 +58,12 @@ The system is designed to remain modular so that sensing, display, and expansion
                          Expansion Interface
                                   |
                          Front Light Module
+```
 
 ## Software Architecture
 
 Application
+
 ────────────────────
 
 Ride Manager
